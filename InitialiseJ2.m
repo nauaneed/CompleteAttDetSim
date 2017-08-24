@@ -7,7 +7,7 @@ mu    = 398600.4415;          % Earth’s gravitational parameter [km^3/s^2]
 R_earth = 6378.137 ;          % Earth radius [km]
 J2 = 0.0010836;
 we = 360*(1 + 1/365.25)/(3600*24);      % Earth's rotation [deg/s]
-fname = 'STUDSAT2like.txt';    % TLE file name
+fname = 'RandomSatTLE.txt';    % TLE file name
 % Open the TLE file and read TLE elements
 fid = fopen(fname, 'rb');
 while ~feof(fid)
