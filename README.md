@@ -1,2 +1,2 @@
-# OrbitPropagator
-A Simple J2 propagator (with a VRML visualisation option) modeled in Simulink
+# AttitudePropagator
+A satellite attitude propagator built upon J2 orbit propagator (with a VRML visualisation option) in Simulink.
